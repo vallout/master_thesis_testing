@@ -1,15 +1,11 @@
 from selenium import webdriver
 import selenium
-import json
 from datetime import date, timedelta
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
-import pprint
 
-from bson.json_util import loads
-import json
 from time import sleep
 
 # ignore errors for testing

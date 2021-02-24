@@ -1,14 +1,10 @@
 from selenium import webdriver
 import selenium
-import json
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-import pprint
 
-from bson.json_util import loads
-import json
 from time import sleep
 
 user1_id = "603102758f73645a9cbc7a27"

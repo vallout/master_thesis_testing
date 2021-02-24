@@ -1,0 +1,46 @@
+{
+    "action": "insert",
+    "UserLoggedIn": {
+        "userId": "60312e4c8709edadf5dfa0c2"
+    }
+}
+
+{
+    "action": "insert",
+    "Item": {
+        "itemType": "SHOES",
+        "name": "Mysterious boots",
+        "description": "A mystery",
+        "modelId": "some_item_model",
+        "price": 0,
+    }
+}
+
+{
+    "action": "insert",
+    "GroupChallenge": {
+        "isRunning": "false",
+        "eventName": "taskFinished",
+        "description": "Finish'em",
+        "end": "<today+7days>",
+        "condition": 100,
+        "rewardPoints": 0,
+        "rewardItem": "<boots_id>",
+        "isFinished": "false",
+    }
+}
+
+{
+    "action": "replace",
+    "GroupChallenge": {
+        "isRunning": "true",
+        "eventName": "taskFinished",
+        "description": "Finish'em",
+        "beginning": "<today>",
+        "end": "<today+7days>",
+        "condition": 100,
+        "rewardPoints": 0,
+        "rewardItem": "<boots_id>",
+        "isFinished": "false",
+    }
+}

@@ -1,0 +1,276 @@
+
+{
+    "action": "insert",
+    "TemporaryPoints": {
+        "points": 30, 
+        "triggeredEvents": ["VideoWatched"]
+    }
+}
+{
+    "action": "replace",
+    "TemporaryPoints": {
+        "points": 50, 
+        "triggeredEvents": [
+            "VideoWatched", 
+            "StayedOnPage"
+        ]
+    }
+}
+{
+    "action": "replace",
+    "TemporaryPoints": {
+        "points": 100, 
+        "triggeredEvents": [
+            "VideoWatched", 
+            "StayedOnPage", 
+            "SpecialRegistration"
+        ]
+    }
+}
+{
+    "action": "insert",
+    "User": {
+        "title": "Mr.", 
+        "firstname": "Jamir", 
+        "lastname": "Gupta", 
+        "primaryMail": "jamir.gupta@mail.com", 
+        "projects": []
+    }
+}
+{
+    "action": "insert",
+    "UserRegistered": {
+        "userId": "<jamirs_id>",
+    }
+}
+{
+    "action": "insert",
+    "Avatar": {
+        "id": "<jamirs_id>",
+        "face": "NEUTRAL", 
+        "hairColor": "BRUNETTE", 
+        "skinColor": "120,120,120", 
+        "facialExpression": "NEUTRAL", 
+        "points": 0, 
+        "avatarItems": {}, 
+        "userItems": []
+    }
+}
+{
+    "action": "replace",
+    "Avatar": {
+        "id": "<jamirs_id>",
+        "face": "NEUTRAL", 
+        "hairColor": "BRUNETTE", 
+        "skinColor": "120,120,120", 
+        "facialExpression": "NEUTRAL", 
+        "points": 100, 
+        "avatarItems": {}, 
+        "userItems": []
+    }
+}
+{
+    "action": "delete",
+    "TemporaryPoints": {
+        "id": "<jamirs_ip>"
+    }
+}
+{
+    "action": "insert",
+    "UserLoggedIn": {
+        "userId": "<jamirs_id>",
+    }
+}
+{
+    "action": "replace",
+    "User": {
+        "id": "<jamirs_id>",
+        "title": "Mr.", 
+        "firstname": "Jamir", 
+        "lastname": "Gupta", 
+        "primaryMail": "jamir.gupta@mail.com", 
+        "phone": "0123456789", 
+        "pictureId": "some_picture_id", 
+        "projects": []
+    }
+}
+{
+    "action": "replace",
+    "Avatar": {
+        "id": "<jamirs_id>",
+        "face": "MASKULIN", 
+        "hairColor": "BLACK", 
+        "skinColor": "244,67,54", 
+        "facialExpression": "COOL", 
+        "points": 100, 
+        "avatarItems": {}, 
+        "userItems": []
+    }
+}
+{
+    "action": "replace",
+    "Avatar": {
+        "id": "<jamirs_id>",
+        "face": "MASKULIN", 
+        "hairColor": "BLACK", 
+        "skinColor": "244,67,54", 
+        "facialExpression": "COOL", 
+        "points": 50, 
+        "avatarItems": {}, 
+        "userItems": ["60312e4c8709edadf5dfa0c5"]
+    }
+}
+{
+    "action": "replace",
+    "Avatar": {
+        "id": "<jamirs_id>",
+        "face": "MASKULIN", 
+        "hairColor": "BLACK", 
+        "skinColor": "244,67,54", 
+        "facialExpression": "COOL", 
+        "points": 50, 
+        "avatarItems": {"TROUSERS": "60312e4c8709edadf5dfa0c5"}, 
+        "userItems": ["60312e4c8709edadf5dfa0c5"]
+    }
+}
+{
+    "action": "replace",
+    "Project": {
+        "id": "60312e4c8709edadf5dfa0c4",
+        "name": "Keep Planting", 
+        "description": "Join this project to fight climate change", 
+        "members": [
+            "60312e4c8709edadf5dfa0c0", 
+            "60312e4c8709edadf5dfa0c2",
+            "<jamirs_id>"
+        ]
+    }
+}
+{
+    "action": "replace",
+    "User": {
+        "id": "<jamirs_id>",
+        "title": "Mr.", 
+        "firstname": "Jamir", 
+        "lastname": "Gupta", 
+        "primaryMail": "jamir.gupta@mail.com", 
+        "phone": "0123456789", 
+        "pictureId": "some_picture_id", 
+        "projects": ["60312e4c8709edadf5dfa0c4"]
+    }
+}
+{
+    "action": "insert",
+    "ProjectJoined": {
+        "userId": "<jamirs_id>",
+        "projectId": "60312e4c8709edadf5dfa0c4"
+    }
+}
+{
+    "action": "replace",
+    "Avatar": {
+        "id": "<jamirs_id>",
+        "face": "MASKULIN", 
+        "hairColor": "BLACK", 
+        "skinColor": "244,67,54", 
+        "facialExpression": "COOL", 
+        "points": 50, 
+        "avatarItems": {"TROUSERS": "60312e4c8709edadf5dfa0c5"}, 
+        "userItems": [
+            "60312e4c8709edadf5dfa0c5", 
+            "60312e4c8709edadf5dfa0c8"
+        ]
+    }
+}
+{
+    "action": "insert",
+    "RewardGained": {
+        "challengeId": "6032316c688becd0f8adf9c0", 
+        "userId": "<jamirs_id>"
+    }
+}
+{
+    "action": "replace",
+    "Task": {
+        "projectId": "60312e4c8709edadf5dfa0c4", 
+        "userId": "60312e4c8709edadf5dfa0c0", 
+        "state": "FINISHED", 
+        "name": "wheatear", 
+        "description": "Aliquam ipsum est sed velit.", 
+        "deadline": "6/1/2018", 
+        "likers": [
+            "60312e4c8709edadf5dfa0c2", 
+            "6033cf4fba27e93658ed7395"
+        ]
+    }
+}
+{
+    "action": "insert",
+    "TaskLiked": {
+        "projectId": "60312e4c8709edadf5dfa0c4", 
+        "creatorId": "60312e4c8709edadf5dfa0c0", 
+        "likerId": "<jamirs_id>"
+    }
+}
+{
+    "action": "replace",
+    "Avatar": {
+        "id": "60312e4c8709edadf5dfa0c0",
+        "face": "MASKULIN", 
+        "hairColor": "BLACK", 
+        "skinColor": "123,231,13", 
+        "facialExpression": "HAPPY", 
+        "points": 1492, 
+        "avatarItems": {}, 
+        "userItems": []
+    }
+}
+{
+    "action": "insert",
+    "RewardGained": {
+        "challengeId": "6032316c688becd0f8adf9c2", 
+        "userId": "60312e4c8709edadf5dfa0c0"
+    }
+}
+{
+    "action": "insert",
+    "Task": {
+        "projectId": "60312e4c8709edadf5dfa0c4", 
+        "userId": "<jamirs_id>", 
+        "state": "DO", 
+        "name": "Jamir's task", 
+        "description": "My first task", 
+        "deadline": "2/21/2021", 
+        "likers": []
+    }
+}
+{
+    "action": "insert",
+    "TaskCreated": {
+        "userId": "6033cf4fba27e93658ed7395", 
+        "projectId": "60312e4c8709edadf5dfa0c4"
+    }
+}
+{
+    "action": "replace",
+    "Avatar": {
+        "id": "<jamirs_id>", 
+        "face": "MASKULIN", 
+        "hairColor": "BLACK", 
+        "skinColor": "244,67,54", 
+        "facialExpression": "COOL", 
+        "points": 70, 
+        "avatarItems": {"TROUSERS": "60312e4c8709edadf5dfa0c5"}, 
+        "userItems": [
+            "60312e4c8709edadf5dfa0c5", 
+            "60312e4c8709edadf5dfa0c8"
+        ]
+    }
+}
+{
+    "action": "insert",
+    "RewardGained": {
+        "challengeId": "6032316c688becd0f8adf9c1", 
+        "userId": "<jamirs_id>"
+    }
+}
